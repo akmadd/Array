@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void printarr(int arr[], int n){
+void printArr(int arr[], int n){
     for(int i = 0; i < n; i++){
         cout << arr[i] << " ";
     }
@@ -20,6 +20,6 @@ int main(){
         arr[i] = copyarr[i];
     }
 
-    printarr(arr, n);
+    printArr(arr, n);
     return 0;
 }
